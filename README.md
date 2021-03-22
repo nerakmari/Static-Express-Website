@@ -15,7 +15,7 @@
 
 ## Attribution 
 
-All Images are taken by Karen Sule. 
+All Images were taken by Karen Sule. 
 
 ## Helpers
 
