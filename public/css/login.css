@@ -1,6 +1,8 @@
 .form-container {
   display: flex;
   flex-flow: column wrap;
+
+  padding: 1rem;
 }
 
 button {

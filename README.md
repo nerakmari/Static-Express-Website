@@ -11,7 +11,7 @@
 - Instead of using the images I used for the previous assignments, I opted to do different set of images as I got bored. 
 - forEach Loop inserted in the client.js is the same as the previous assignment which used Gallery HTML
   - I didn't use the arrows for the client.js out of the fear it would break my code.(--sorry for the inconsistency!)
-- 404 isn't outsourced from a separate HTML cause I figured I did it wrong from the previous assignment and I didn't want to risk it. 
+  - 404 isn't outsourced from a separate HTML cause I figured I did it wrong from the previous assignment and I didn't want to risk it.
 
 ## Attribution 
 
