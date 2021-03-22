@@ -83,5 +83,3 @@ const images = [
 ]
 
 module.export = images
-
-console.log(images)
