@@ -3,7 +3,7 @@ const path = require('path');
 const express = require('express');
 
 //routes
-const pages = require('./routes/index');
+const index = require('./routes/index');
 const v0 = require('./routes/api/v0');
 
 // to make it static 
@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 
 
 // index
-app.use('/', pages())
+app.use('/', index)
 
 // api
 app.use('/api/v0', v0)

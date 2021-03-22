@@ -5,7 +5,7 @@ const apiRoute = require('./api/v0')
 module.exports = () => {
 
   router.get('/', (req, res) => {
-    res.render('pages/index', {pageTitle: 'Gallery'})
+    res.render('pages/index', {pageTitle: 'Kiyo Mood Board'})
   })
   
   router.get('/login', (req, res) => {

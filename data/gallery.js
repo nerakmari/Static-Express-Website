@@ -1,4 +1,4 @@
-module.exports = [
+const images = [
   {
   id: 1,
   title: 'Smol Kiyo',
@@ -81,3 +81,7 @@ module.exports = [
   credit: 'Photo by Karen Sule'
 },
 ]
+
+module.export = images
+
+console.log(images)
