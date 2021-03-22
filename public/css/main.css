@@ -46,7 +46,7 @@ a:hover {
   color:seagreen;
 }
 
-/* Just Navigation Media Query*/
+/* Just Navigation and Image Media Query*/
 @media screen and (max-width: 600px) {
   nav ul {
     flex-direction: column-reverse;

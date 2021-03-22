@@ -13,10 +13,12 @@ app.use(express.static(path.join('./public')));
 //setting view engine
 app.set('view engine', 'ejs');
 
+// dayJS
 app.use('/', (req,res,next)=>{
   res.locals.siteName ='Kiyo Mood Board';
   next();
 })
+
 // index
 app.use('/', index)
 
