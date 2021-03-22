@@ -4,7 +4,6 @@ const express = require('express');
 
 //routes
 const index = require('./routes/index');
-const v0 = require('./routes/api/v0');
 
 // to make it static 
 const app = express()
@@ -14,13 +13,12 @@ app.use(express.static(path.join('./public')));
 //setting view engine
 app.set('view engine', 'ejs');
 
-
+app.use('/', (req,res,next)=>{
+  res.locals.siteName ='Kiyo Mood Board';
+  next();
+})
 // index
 app.use('/', index)
-
-// api
-app.use('/api/v0', v0)
-
 
 // 404
 app.use((req, res) => {
