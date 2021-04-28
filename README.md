@@ -1,4 +1,4 @@
-# CPNT262 - Deployed Static Express Website 
+# Deployed Static Express Website 
 
 ## Repository Owner and Maintainer: Karen Sule 
 
